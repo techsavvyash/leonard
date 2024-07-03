@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "outDir": "dist",  // Output directory for compiled files
+    "baseUrl": "./",   // Base directory for resolving non-relative module names
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]  // Example path mappings, adjust as needed
+    }
+  },
+  "include": [
+    "src/**/*.ts"  // Path to your TypeScript source files
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
